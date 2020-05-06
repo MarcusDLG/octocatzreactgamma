@@ -30,7 +30,6 @@ const CatCard = () => {
                     <strong>{cat.name}</strong>
                   </p>
                   <section className="authors">
-                    {/* <img src={cat.authors[0].image} alt="small github symbol" /> */}
                     {cat.authors.map((author) => {
                       return (
                         <a href={author.link}>
