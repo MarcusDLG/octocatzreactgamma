@@ -1,0 +1,125 @@
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+code {
+  color: #e01a76;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+main {
+  margin-top: 5rem;
+  display: grid;
+  grid-template-columns: 100%;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.octodexName {
+  color: black;
+}
+
+header a {
+  color: grey;
+  text-decoration: none;
+}
+
+.card {
+  margin: 0rem 1rem;
+  /* padding-right: 1rem; */
+  padding: 1rem;
+  /* display: flex; */
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.octocatPic {
+  border: 0.1rem solid rgb(207, 207, 206);
+  border-radius: 1rem;
+  width: 100%;
+  height: auto;
+}
+
+.cardDescription {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  padding: 1rem 0;
+}
+
+.cat-number {
+}
+
+.cardDescription img {
+  margin: 0.2rem;
+  padding: 0;
+  /* border-radius: 10rem; */
+  height: 24px;
+  width: auto;
+}
+
+footer {
+  color: grey;
+  margin: 1rem;
+  padding: 1.5rem 0 2rem 0;
+  font-size: medium;
+}
+
+@media (min-width: 768px) {
+  header {
+    padding: 0;
+    margin: 0;
+  }
+  main {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .cardDescription {
+    padding: 1rem 0 5rem 0;
+  }
+}
+
+@media (min-width: 1024px) {
+  header {
+    padding: 0;
+    margin: 0;
+  }
+  main {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .cardDescription {
+    padding: 1rem 0 5rem 0;
+  }
+}
+
+@media (min-width: 1280px) {
+  header {
+    padding: 0;
+    margin: 0;
+  }
+  main {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+  }
+  .cardDescription {
+    padding: 1rem 0 5rem 0;
+  }
+}

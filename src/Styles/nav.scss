@@ -1,0 +1,31 @@
+header {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgb(250, 251, 252);
+  opacity: 0.9;
+}
+
+header img {
+  padding-top: 0.5rem;
+  width: auto;
+  height: 2rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+header ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+
+header li {
+  padding: 1rem;
+  margin: 0;
+  /* padding: .05rem; */
+}
