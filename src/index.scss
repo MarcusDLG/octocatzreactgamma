@@ -20,6 +20,7 @@ main {
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: space-around;
+  background-color: rgb(244, 242, 242);
 }
 
 .octodexName {
@@ -41,8 +42,9 @@ header a {
 }
 
 .octocatPic {
-  border: 0.1rem solid rgb(207, 207, 206);
-  border-radius: 1rem;
+  border: 0.05rem solid rgb(207, 207, 206);
+  background-color: white;
+  border-radius: 0.5rem;
   width: 100%;
   height: auto;
 }
